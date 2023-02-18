@@ -7,7 +7,7 @@ import javax.validation.constraints.*;
 public class Sandwich
 {
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	@NotBlank(message = "Name is mandatory!")
 	private String name;

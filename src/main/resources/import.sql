@@ -1,9 +1,9 @@
-INSERT INTO sandwich (id, name, recipe) VALUES (1, 'BLT', 'Named for its ingredients: bacon, lettuce, and tomato. Often served on toasted sliced bread spread with mayonnaise.');
-INSERT INTO sandwich (id, name, recipe) VALUES (2, 'American Sub', 'Traditionally uses sliced turkey breast, ham, roast beef, American, Swiss or Provolone cheese, chopped or shredded lettuce, tomatoes and green peppers on a roll of bread.');
-INSERT INTO sandwich (id, name, recipe) VALUES (3, 'Barros Jarpa', 'Ham and cheese, usually mantecoso, which is similar to farmer cheese.');
-INSERT INTO sandwich (id, name, recipe) VALUES (4, 'Baked Bean', 'Canned baked beans on white or brown bread, sometimes with butter.');
-INSERT INTO sandwich (id, name, recipe) VALUES (5, 'Bagel Toast', 'Pressed, toasted bagel filled with vegetables and cheese and grilled on a sandwich toaster or panini press.');
-INSERT INTO sandwich (id, name, recipe) VALUES (6, 'Broodje Kroket', 'Soft bread roll containing a ragout-based croquette, often eaten with mustard.');
-INSERT INTO sandwich (id, name, recipe) VALUES (7, 'Bratwurst', 'A popular street food in Germany, often served on a roll with mustard in which case it is a sandwich. Some vendors offer a side dish of sauerkraut or french fries.');
-INSERT INTO sandwich (id, name, recipe) VALUES (8, 'Cheesesteak', 'Thinly sliced steak and melted cheese in a hoagie roll, with additional toppings often including peppers, onions, and mushrooms, also known as a Philadelphia or Philly cheesesteak.');
-INSERT INTO sandwich (id, name, recipe) VALUES (9, 'Club', 'Triple-decker sandwich made with sliced turkey or chicken, bacon, tomato, and lettuce; usually contains mayonnaise.');
+INSERT INTO sandwich (name, recipe) VALUES ('BLT', 'Named for its ingredients: bacon, lettuce, and tomato. Often served on toasted sliced bread spread with mayonnaise.');
+INSERT INTO sandwich (name, recipe) VALUES ('American Sub', 'Traditionally uses sliced turkey breast, ham, roast beef, American, Swiss or Provolone cheese, chopped or shredded lettuce, tomatoes and green peppers on a roll of bread.');
+INSERT INTO sandwich (name, recipe) VALUES ('Barros Jarpa', 'Ham and cheese, usually mantecoso, which is similar to farmer cheese.');
+INSERT INTO sandwich (name, recipe) VALUES ('Baked Bean', 'Canned baked beans on white or brown bread, sometimes with butter.');
+INSERT INTO sandwich (name, recipe) VALUES ('Bagel Toast', 'Pressed, toasted bagel filled with vegetables and cheese and grilled on a sandwich toaster or panini press.');
+INSERT INTO sandwich (name, recipe) VALUES ('Broodje Kroket', 'Soft bread roll containing a ragout-based croquette, often eaten with mustard.');
+INSERT INTO sandwich (name, recipe) VALUES ('Bratwurst', 'A popular street food in Germany, often served on a roll with mustard in which case it is a sandwich. Some vendors offer a side dish of sauerkraut or french fries.');
+INSERT INTO sandwich (name, recipe) VALUES ('Cheesesteak', 'Thinly sliced steak and melted cheese in a hoagie roll, with additional toppings often including peppers, onions, and mushrooms, also known as a Philadelphia or Philly cheesesteak.');
+INSERT INTO sandwich (name, recipe) VALUES ('Club', 'Triple-decker sandwich made with sliced turkey or chicken, bacon, tomato, and lettuce; usually contains mayonnaise.');
