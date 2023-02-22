@@ -47,7 +47,7 @@ public class SandwichController
 		}
 	}
 	@PostMapping("sandwiches")
-	@ResponseStatus(HttpStatus.OK)
+	@ResponseStatus(HttpStatus.CREATED)
 	public Sandwich createSandwich(@RequestBody Sandwich sandwich)
 	{
 		return sandwichRepository.save(sandwich);
@@ -71,6 +71,13 @@ public class SandwichController
 	@ResponseStatus(HttpStatus.OK)
 	public void deleteSandwich(@PathVariable Long id)
 	{
-		sandwichRepository.deleteById(id); //TODO: Needs 404 Exception Handling.
+		try
+		{
+			sandwichRepository.deleteById(id);
+		}
+		catch (SandwichNotFoundException exception)
+		{
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Sandwich Not Found");
+		}
 	}
 }
